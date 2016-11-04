@@ -1,0 +1,26 @@
+mennyiségi követelmények a beadandóhoz:
+
+komponensek:
+- 3db JTextBox OK
+- 1db JTextArea OK
+- 3db JComboBox 3/3 OK
+- 1db JList OK
+- 4db JCheckBox 4/4 OK
+- 2db JRadioButton, Button Group OK
+- 1db JSpinner OK
+
+összefüggések:
+
+
+- JCheckBox, amelynek értékétől függően egy másik JCheckBox aktív/inaktív lesz (OK)
+- JCheckBox VAGY JRadioButton, melynek értékétől függően aktív/inaktív lesz egy JTextBox VAGY egy JSpinner OK
+- olyan JComboBox VAGY JList melynek értékei egy másik komponenstől függően változnak OK
+- minden kötelező mező kitöltésének ellenőrzése (min 5 mező)
+
+
+_____
+
+- export.txt-be mentés áttekinthető állományba
+- fájl titkosítása + featureként amiért a teljes követelményrendszer nem teljesítettem (főleg layoutok)
+
+
