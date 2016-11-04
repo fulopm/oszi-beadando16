@@ -139,15 +139,6 @@ public class MainFrame extends JFrame {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				/*
-				 * centerContentPanel.getComponents()[0].setVisible(true);
-				 * centerContentPanel.getComponents()[1].setVisible(false);
-				 * centerContentPanel.getComponents()[2].setVisible(false);
-				 * upMenuPanelComponents[0].setEnabled(true);
-				 * upMenuPanelComponents[1].setEnabled(false);
-				 * upMenuPanelComponents[2].setEnabled(false); pack();
-				 * setLocationRelativeTo(null);
-				 */
 				switchContentPanel(-1, 0);
 
 			}
@@ -179,16 +170,6 @@ public class MainFrame extends JFrame {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				/*
-				 * centerContentPanel.getComponents()[0].setVisible(false);
-				 * centerContentPanel.getComponents()[1].setVisible(true);
-				 * centerContentPanel.getComponents()[2].setVisible(false);
-				 * upMenuPanelComponents[0].setEnabled(false);
-				 * upMenuPanelComponents[1].setEnabled(true);
-				 * upMenuPanelComponents[2].setEnabled(false); pack();
-				 * setLocationRelativeTo(null);
-				 */
-
 				switchContentPanel(-1, 1);
 
 			}
@@ -224,17 +205,6 @@ public class MainFrame extends JFrame {
 
 			@Override
 			public void mouseClicked(MouseEvent e) {
-				/*
-				 * centerContentPanel.getComponents()[0].setVisible(false);
-				 * centerContentPanel.getComponents()[1].setVisible(false);
-				 * centerContentPanel.getComponents()[2].setVisible(true);
-				 * 
-				 * upMenuPanelComponents[0].setEnabled(false);
-				 * upMenuPanelComponents[1].setEnabled(false);
-				 * upMenuPanelComponents[2].setEnabled(true); pack();
-				 * setLocationRelativeTo(null);
-				 */
-
 				switchContentPanel(-1, 2);
 			}
 		});
